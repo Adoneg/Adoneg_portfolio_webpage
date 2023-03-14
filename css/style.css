@@ -1,0 +1,178 @@
+
+body{
+    color: #40514E;
+    margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 150%;
+}
+span{
+    text-decoration: underline;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted #b3bbbb 6px; /*#EAF6F6*/
+    width: 5%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+h1{
+    color: #66bfbf;
+    font-weight: normal;  /*to get rid of the bold*/
+    font-size: 5.625rem;  /*100% == 16px==1em width of M in olden days em and % are dynamic, inherited from parents too, use rem(root em) to not inherit parents*/
+    /* rem is pref for font-size since cthey can be better adjusted by user preferences */
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Merriweather', serif;
+
+    margin: 50px auto 0;       /* top n bottom 0, horizontally centered; */
+    /* px is more precise and can be use for position on screen for things like margins, padding */
+}
+
+h2{
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;  /*to get rid of the bold*/
+    padding-bottom: 10px;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;    
+}
+
+a{
+    color: #11999E;
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+    text-decoration: unset;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+.bio{
+    width: 30%;
+    margin: auto;
+}
+.top_container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.middle-container {
+    margin:80px 0;
+
+}
+
+.bottom-container{
+    background-color: #66bfbf;
+
+}
+.cloud-bottom {
+    position: absolute;
+    left: 350px;
+    bottom: 350px
+}
+
+.cloud-top{
+    position: absolute;
+    right: 350px;
+    top: 50px;
+
+}
+
+.skills{
+    background-color:  #E4F9F5;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px; /*centered form top L R and bottom*/
+    text-align: left;
+    line-height: 2;
+}
+
+.hobby-row{
+    width: 50%;
+    margin: 100px auto 100px; /*centered form top L R and bottom*/
+    text-align: left;
+    line-height: 2;
+}
+
+.right-img{
+    width: 30%;
+    float: left;
+    margin-right: 100px;
+}
+
+.summit-img{
+    width: 15%;
+    float: left;
+    margin-right: 50px;
+}
+
+
+.left-img{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.desc{
+    clear: both; /*clear works like anti float*/
+}
+
+.contact-details{
+    width: 40%;
+    margin: auto;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:  font-family 'Merriweather', serif;;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.cpy{
+    margin: 0;
+    color: #EAF6F6;
+    font-size: 0.74rem; /* 1rem == 16px*/
+    padding: 20px 0;
+}
+
+.pointdown{
+    width: 35px;
+    height: 30px;
+}
